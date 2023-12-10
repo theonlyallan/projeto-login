@@ -12,7 +12,8 @@
     box-sizing: border-box;
 }
 
-body, html {
+body,
+html {
     background-color: #5f2c82;
     height: 100vh;
     width: 100vw;
@@ -32,7 +33,7 @@ section#login {
     overflow: hidden;
 
     background-color: white;
-    width: 250px;
+    width: 350px;
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.485);
@@ -41,16 +42,25 @@ section#login {
     transition-timing-function: ease;
 }
 
-section#login > div#imagem {
+section#login>div#imagem {
     display: block;
-    background: #5f2cb2 url(../imagens/pexels-dinnow-9444476.jpg) no-repeat; 
+    background: #5f2cb2 url(../imagens/pexels-dinnow-9444476.jpg) no-repeat;
     background-size: cover;
     background-position: left bottom;
     height: 300px;
 }
 
-section#login > div#formulario {
+section#login>div#formulario {
     display: block;
     padding: 10px;
 
+}
+
+div#formulario>h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#formulario>p {
+    font-size: 0.8em;
 }
